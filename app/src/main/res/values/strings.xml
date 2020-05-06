@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HERE</string>
+
+    <string-array name="sex">
+        <item>選擇性別</item>
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string name="title_activity_maps">Map</string>
+</resources>

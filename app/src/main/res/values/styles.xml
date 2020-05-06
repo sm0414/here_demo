@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--自定義耗時對話方塊-->
+    <style name="CustomProgressDialog" parent="Theme.AppCompat.Dialog">
+        <!--此屬性控制懸浮窗背景是否變暗-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!--***************啟動頁Theme***************-->
+     
+    <style name="AppTheme.FullScreen" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@mipmap/view</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

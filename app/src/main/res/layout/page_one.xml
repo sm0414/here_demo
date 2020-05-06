@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/b">
+
+    <ImageView
+        android:id="@+id/myImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/myId"
+        android:layout_toRightOf="@id/myImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="32sp"/>
+
+    <TextView
+        android:id="@+id/addFri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新增好友"
+        android:textColor="#000000"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="好友列表"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:textSize="16dp"/>
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/line"
+        android:layout_marginTop="160dp"/>
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/line"
+        android:layout_marginLeft="241dp"
+        android:layout_marginTop="160dp"/>
+
+    <TextView
+        android:id="@+id/noFri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#A52A2A"
+        android:text="目前暫無好友!"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ListView
+        android:id="@+id/listData"
+        android:layout_marginTop="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+</RelativeLayout>
